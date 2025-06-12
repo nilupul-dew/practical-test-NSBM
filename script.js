@@ -12,6 +12,7 @@ $(document).ready(function(){
                     $('#result').html("<p style='color:red'>" + response.error + "</p>");
                 } else {
                     $('#result').html(`
+                        <h4 style="text-align:center"><strong>Results</strong></h4>
                         <p><strong>Max:</strong> ${response.max}</p>
                         <p><strong>Min:</strong> ${response.min}</p>
                         <p><strong>Average:</strong> ${response.avg}</p>
